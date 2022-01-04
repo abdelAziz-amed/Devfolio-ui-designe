@@ -1,0 +1,390 @@
+:root{
+
+    --blue:#0078FF;
+    --black:#040404;
+
+}
+body{
+    box-sizing: border-box !important;
+}
+
+*{
+    box-sizing: border-box !important;
+}
+
+
+.headr{
+
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.headr h1{
+
+    font-size: 4.5rem;
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+.headr p{
+
+    font-size: 2.5rem;
+    color: #f1f1f1;
+  
+}
+
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0,0,0,0.2);
+    z-index: 88;
+    left: 0px;
+    opacity: 0.9;
+}
+
+.about{
+    background-color: #f5f5f5;
+    padding:5rem;
+}
+
+.padding-about{
+    padding: 6rem;
+}
+
+hr{
+    width: 100px;
+    height: 5px !important;
+    color:#0078FF ;
+}
+
+.about p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.about h4{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+span,h6{
+    font-size: 1.2rem;
+}
+ .card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+ }
+.service .border-icon{
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #0078FF ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.service i{
+
+    font-size: 40px;
+    text-align: center;
+    color: #0078FF;
+
+}
+
+.service .border-icon:hover{
+    
+    border: 6px solid #fafafa ;
+    color: #f1f1f1 !important;
+}
+
+.card-main{
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.back{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    
+}
+
+.back::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:#0078FF;
+    z-index: 88;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.modal-header{
+
+    background-image: url(../images/work-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 999999999999999;
+    margin-right: 500px;
+}
+
+.back h3,h4,i{
+    color: #ffffff;
+    z-index: 8888888;
+    position: relative;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 10px;
+    
+    
+}
+
+.card{
+    overflow: hidden;
+}
+
+.icon-container{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #fafafa ;
+    border-radius: 50%;
+    padding: 10px 10px;
+    z-index: 9999999999999999;
+}
+
+.icon-container i{
+   color: #fafafa !important;
+}
+
+.portofolio h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.border-blus{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0078FF;
+    border-radius: 50%;
+}
+
+.border-blus i{
+    color:#0078FF ;
+}
+.portofolio img{
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
+}
+.portofolio img:hover{
+    transform: scale(1.2);
+    box-sizing: border-box;
+    transition: all linear 0.3s;
+    overflow: hidden;
+}
+
+.card{
+    box-sizing: border-box !important;
+    
+}
+
+.portofolio{
+    box-sizing: border-box !important;
+}
+
+.portofolio .row{
+    box-sizing: border-box !important;
+}
+.modal-header{
+    background-image: url(../images/work-1.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999999;
+}
+
+/* .carousel{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} */
+
+  /*  .carousel ::after{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:#0078FF;
+    z-index: 8879999999999999999999999999999999999;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.4;
+}   */
+
+
+   
+
+ .carousel{
+     background-image: url(../images/overlay-bg.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+     position: relative;
+     background-color: rgba(0,0,0,0.2);
+     z-index: 9999999999999999999999999999999999999999999999;
+ }
+
+ .overlay{
+
+    width: 100%;
+    height: 100%;
+    background-color:#1e1e1e;
+    z-index: 999999999999999999999999999999999999999;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+ }
+ .carousel-item{
+    width: 100%;
+    height: auto;
+  
+    
+} 
+
+/* .carousel-item img{
+    margin-top: 20px;
+} */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+  padding: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-inner::after {
+    clear: both;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(0, 120, 255);
+    opacity: 0.5;
+    position: absolute;
+    background-color: rgba(0, 120, 255,0.62);
+}
+
+.aziz{
+    width: 100%;
+    height: 500px;
+}
+
+.blog h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.blog .card{
+    margin-right: 2rem;
+}
+
+small img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.icon{ 
+    display: inline;
+   
+    
+}
+
+.icon i{
+    color: #0078FF;
+    border: 2px solid #0078FF;
+    border-radius: 50%;
+    padding: 1.1rem ;
+    box-shadow: 1px 2px 1px #d2c7c7;
+}
+
+.icon i:hover{
+    background-color:  #0078FF;
+    opacity: 0.9;
+    transition: all linear 0.5s;
+    color: #f1f1f1;
+}
+
+i{
+    color: #0078FF;
+}
+
+.para{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #0078FF;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+footer a {
+    color: #f5f5f5;
+}
